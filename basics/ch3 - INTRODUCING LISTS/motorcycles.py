@@ -20,7 +20,7 @@ print(motorcycles)
 motorcycles.insert(2, 'yamaha')
 print(motorcycles)
 
-del motorcycles[3]+
+del motorcycles[3]
 print(motorcycles)
 
 print('\npop example')

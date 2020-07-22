@@ -11,9 +11,10 @@ cars.sort(reverse=True)
 print('after reverse sort')
 print(cars)
 
-print('temp sort')
+print('copy and sort only applied to the copy')
 sorted_cars = sorted(cars)
 print(sorted_cars)
+print(cars)
 
 cars.sort(reverse=True)
 print('after reverse sort original list')
