@@ -6,6 +6,10 @@ print("range(0,7)")
 for value in range(0, 7):
     print(value)
 
+print("range(7)")
+for value in range(7):
+    print(value)
+
 print("range(3,7)")
 for value in range(3, 7):
     print(value)
